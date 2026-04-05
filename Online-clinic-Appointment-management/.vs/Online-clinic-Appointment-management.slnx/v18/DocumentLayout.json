@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SP_Project\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\",
+  "WorkspaceRootPath": "D:\\SP\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA8E9161-2320-4D42-8AAB-1D9685E489A1}|Online-clinic-Appointment-management\\Online-clinic-Appointment-management.vcxproj|D:\\SP_Project\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DA8E9161-2320-4D42-8AAB-1D9685E489A1}|Online-clinic-Appointment-management\\Online-clinic-Appointment-management.vcxproj|D:\\SP\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DA8E9161-2320-4D42-8AAB-1D9685E489A1}|Online-clinic-Appointment-management\\Online-clinic-Appointment-management.vcxproj|solutionrelative:Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Online-clinic-Appointment-management.cpp",
-              "DocumentMoniker": "D:\\SP_Project\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp",
+              "DocumentMoniker": "D:\\SP\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp",
               "RelativeDocumentMoniker": "Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp",
-              "ToolTip": "D:\\SP_Project\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp",
+              "ToolTip": "D:\\SP\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp",
               "RelativeToolTip": "Online-clinic-Appointment-management\\Online-clinic-Appointment-management.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-05T18:16:55.831Z",
               "EditorCaption": ""

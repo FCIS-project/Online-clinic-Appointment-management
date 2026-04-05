@@ -5,7 +5,7 @@ using namespace std;
 // Person 2
 void DisplayDoctors() {
 	if (doctorCount == 0) {
-		cout << "No Doctors Availble :( " << endl;
+		cout << "No Doctors Availble    :( " << endl;
 	}
 	else {
 		for (int i = 0; i < 1; i++) {
