@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Online-clinic-Appointment-management/Online-clinic-Appointment-management.vcxproj" Id="da8e9161-2320-4d42-8aab-1d9685e489a1" />
+</Solution>
