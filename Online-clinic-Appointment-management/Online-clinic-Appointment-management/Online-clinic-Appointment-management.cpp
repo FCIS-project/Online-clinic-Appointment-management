@@ -298,3 +298,93 @@ void createAppointment(int patient_ID, int Doctor_ID, string Date, string Time) 
 
 } */
 
+int adminLogin()
+{
+    int id;
+    string pass;
+    cout << "\n--- Admin Login ---\n";
+    cout << "Enter Admin ID: ";
+    cin >> id;
+    cout << "Enter Password: ";
+    cin >> pass;
+
+    for (int i = 0; i < adminCount; i++) {
+        if (admins[i].adminID == id && admins[i].password == pass) {
+            cout << "\n[!] Admin Login Successful. Welcome, " << admins[i].name << "!\n";
+            return 1; // نجاح الدخول
+        }
+    }
+    cout << "\n[!] Invalid Admin Credentials!\n";
+    return 0; // فشل الدخول
+}
+void adminMenu()
+{
+    int choice;
+    do {
+        cout << "\n--- Admin Menu ---\n";
+        cout << "1. View All Appointments\n";
+        cout << "2. View System Reports\n";
+        cout << "3. Logout\n";
+        cout << "Enter choice: ";
+        cin >> choice;
+
+        switch (choice) {
+        case 1: viewAllAppointments(); break;
+        case 2: viewSystemReports(); break;
+        case 3: cout << "Logging out...\n"; break;
+        default: cout << "Invalid choice!\n";
+        }
+    } while (choice != 3);
+}
+void viewAllAppointments()
+{
+    cout << "\n--- All System Appointments ---\n";
+    if (appointmentCount == 0) {
+        cout << "No appointments booked yet.\n";
+        return;
+    }
+
+    // جدول بسيط للعرض
+    cout << "AppID\tPatID\tDocID\tDate\t\tStatus\n";
+    for (int i = 0; i < appointmentCount; i++) {
+        cout << appointments[i].appointmentID << "\t"
+            << appointments[i].patientID << "\t"
+            << appointments[i].doctorID << "\t"
+            << appointments[i].appointmentDate << "\t"
+            << appointments[i].status << endl;
+    }
+}
+void viewSystemReports()
+{
+    cout << "\n--- System Reports & Statistics ---\n";
+    cout << "Total Patients Registered: " << patientCount << endl;
+    cout << "Total Doctors Available:   " << doctorCount << endl;
+    cout << "Total Appointments Made:  " << appointmentCount << endl;
+
+    float totalEarnings = 0;
+    for (int i = 0; i < appointmentCount; i++) {
+        if (appointments[i].status != "Cancelled") {
+            totalEarnings += appointments[i].totalCost;
+        }
+    }
+    cout << "Total Revenue (Confirmed): " << totalEarnings << " EGP" << endl;
+}
+// 4. قائمة الأدمن (التي تربط المهام ببعضها)
+void adminMenu() {
+    int choice;
+    do {
+        cout << "\n--- Admin Menu ---\n";
+        cout << "1. View All Appointments\n";
+        cout << "2. View System Reports\n";
+        cout << "3. Logout\n";
+        cout << "Enter choice: ";
+        cin >> choice;
+
+        switch (choice) {
+        case 1: viewAllAppointments(); break;
+        case 2: viewSystemReports(); break;
+        case 3: cout << "Logging out...\n"; break;
+        default: cout << "Invalid choice!\n";
+        }
+    } while (choice != 3);
+}
